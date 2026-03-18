@@ -20,6 +20,8 @@ public class Main {
         System.out.println("Average: " + average);
         int max = StatisticsHelper.calculateMax(values);
         System.out.println("Max: " + max);
+        int min = StatisticsHelper.calculateMin(values);
+        System.out.println("Min: " + min);
         System.out.println("END");
     }
 }
