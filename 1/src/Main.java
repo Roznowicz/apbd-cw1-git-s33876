@@ -18,6 +18,8 @@ public class Main {
 
         double average = StatisticsHelper.calculateAverage(values);
         System.out.println("Average: " + average);
+        int max = StatisticsHelper.calculateMax(values);
+        System.out.println("Max: " + max);
         System.out.println("END");
     }
 }
