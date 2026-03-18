@@ -16,4 +16,11 @@ public class StatisticsHelper {
         }
         return max;
     }
+    public static int calculateMin(int[] values) {
+        int min = values[0];
+        for (int v : values) {
+            if (v < min) min = v;
+        }
+        return min;
+    }
 }
