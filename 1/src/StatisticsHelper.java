@@ -12,11 +12,16 @@ public class StatisticsHelper {
     public static int calculateMax(int[] values) {
         int max = values[0];
         for (int v : values) {
-            if (v > max) max = v;
+            if (v > max) {
+                max = v;
+            }
         }
         return max;
     }
     public static int calculateMin(int[] values) {
+        if (values.length == 0) {
+            throw new IllegalArgumentException("Array cannot be empty");
+        }
         int min = values[0];
         for (int v : values) {
             if (v < min) {
