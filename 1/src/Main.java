@@ -18,5 +18,6 @@ public class Main {
 
         double average = StatisticsHelper.calculateAverage(values);
         System.out.println("Average: " + average);
+        System.out.println("END");
     }
 }
