@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-
+        System.out.println("Version B");
         System.out.println("How many numbers?");
         int n = scanner.nextInt();
 
