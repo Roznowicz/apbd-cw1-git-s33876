@@ -9,4 +9,11 @@ public class StatisticsHelper {
         }
         return (double) sum / values.length;
     }
+    public static int calculateMax(int[] values) {
+        int max = values[0];
+        for (int v : values) {
+            if (v > max) max = v;
+        }
+        return max;
+    }
 }
